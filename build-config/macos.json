@@ -1,0 +1,7 @@
+{
+    "appId": "com.kikisoftware.login",
+    "npmRebuild": true,
+    "mac" : {
+        "target": ["dir", "dmg"]
+    }
+}

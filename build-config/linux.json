@@ -1,0 +1,8 @@
+{
+  "appId": "com.kikisoftware.login",
+  "npmRebuild": true,
+  "linux" : {
+    "target": ["AppImage"],
+    "maintainer": "KikiSoftware"
+  }
+}

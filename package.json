@@ -1,0 +1,27 @@
+{
+  "name": "KikiLogin",
+  "main": "index.js",
+  "node-main": "index.js",
+  "version": "1.8.5",
+  "private": true,
+  "description": "Replace multiple computers with virtual browser profiles",
+  "author": "KikiSoftware",
+  "email": "support@kikilogin.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kikilogin/Kikilogin-release"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "electron-updater": "^4.6.5",
+    "fs-extra": "^11.1.0",
+    "http-errors": "~1.6.3",
+    "md5": "^2.3.0",
+    "moment": "^2.29.3",
+    "request": "^2.88.2",
+    "tree-kill": "^1.2.2",
+    "ws": "^8.4.2"
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>KikiLogin Welcome</title>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+            rel="stylesheet"
+    />
+</head>
+<style>
+    body {
+        overflow: hidden;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: "Roboto", sans-serif;
+    }
+    .error-icon {
+        display: inline-block;
+        position: relative;
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+    }
+    .error-icon div {
+        box-sizing: border-box;
+        display: block;
+        position: absolute;
+        width: 44px;
+        height: 3px;
+        margin: 1px;
+        background-color: #ff0000;
+        border-radius: 2px;
+        transform-origin: center;
+    }
+    .error-icon div:nth-child(1) {
+        transform: rotate(45deg);
+    }
+    .error-icon div:nth-child(2) {
+        transform: rotate(-45deg);
+    }
+</style>
+<body>
+<div class="error-icon">
+    <div></div>
+    <div></div>
+</div>
+<p style="font-size: 20px;">Lỗi cập nhật ứng dụng...</p>
+</body>
+</html>

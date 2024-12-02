@@ -1,0 +1,5 @@
+{
+  "appId": "com.kikisoftware.login",
+  "npmRebuild": true,
+  "publish": ["github"]
+}

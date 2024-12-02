@@ -1,0 +1,10 @@
+{
+  "appId": "com.kikisoftware.login",
+  "npmRebuild": true,
+  "mac" : {
+    "target": {
+      "target": "default",
+      "arch": ["arm64"]
+    }
+  }
+}

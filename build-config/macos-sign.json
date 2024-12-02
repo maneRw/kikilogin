@@ -1,0 +1,14 @@
+{
+  "appId": "com.kikisoftware.login",
+  "npmRebuild": true,
+  "mac" : {
+    "target": ["dir", "dmg", "zip"],
+    "hardenedRuntime": true,
+    "gatekeeperAssess": false,
+    "entitlements": "./node_modules/electron-builder-notarize/entitlements.mac.inherit.plist"
+  },
+  "dmg": {
+    "sign": false
+  },
+  "afterSign": "electron-builder-notarize"
+}
